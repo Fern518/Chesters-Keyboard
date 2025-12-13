@@ -1799,12 +1799,6 @@
 		(uuid "088f9db4-cbd5-4774-80a1-16c53618f0a8")
 	)
 	(junction
-		(at 285.75 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0904226a-6612-4b50-af3b-bdf7afede8e6")
-	)
-	(junction
 		(at 285.75 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2417,12 +2411,6 @@
 		(uuid "b709b996-60bf-4485-86ea-df4388428605")
 	)
 	(junction
-		(at 269.24 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b89fec7e-bbf1-43b8-b586-c8ac4324bd36")
-	)
-	(junction
 		(at 266.7 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2930,16 +2918,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 22.86) (xy 269.24 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bd1151f-7a57-41ae-9a9b-bced1fa609db")
-	)
-	(wire
-		(pts
 			(xy 64.77 43.18) (xy 66.04 43.18)
 		)
 		(stroke
@@ -3190,16 +3168,6 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 25.4) (xy 285.75 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f9fa4ca-8c16-483e-8e82-aaa36be23aaa")
-	)
-	(wire
-		(pts
 			(xy 212.09 22.86) (xy 212.09 25.4)
 		)
 		(stroke
@@ -3250,7 +3218,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 22.86) (xy 288.29 22.86)
+			(xy 250.19 22.86) (xy 288.29 22.86)
 		)
 		(stroke
 			(width 0)
@@ -5570,16 +5538,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 22.86) (xy 269.24 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b440d66e-db3b-4d7f-88f6-a86263cd2e96")
-	)
-	(wire
-		(pts
 			(xy 21.59 22.86) (xy 40.64 22.86)
 		)
 		(stroke
@@ -6000,7 +5958,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 20.32) (xy 285.75 25.4)
+			(xy 285.75 20.32) (xy 285.75 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6617,16 +6575,6 @@
 			(type default)
 		)
 		(uuid "fb8b7502-cc7c-4b0f-a4c7-507c71c5d7fe")
-	)
-	(wire
-		(pts
-			(xy 274.32 25.4) (xy 275.59 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc3c8243-e3ce-4353-85bb-1b6f0fffe6ba")
 	)
 	(wire
 		(pts
@@ -10435,77 +10383,6 @@
 			(project "keyboard"
 				(path "/865a014f-22d3-4b82-bacd-05623a0d23ab"
 					(reference "rSHIFT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 280.67 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b72c2fa-9b31-4560-8f78-7e553401a1ab")
-		(property "Reference" "SCREEN1"
-			(at 280.67 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(color 54 47 255 1)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 280.67 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 280.67 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 280.67 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 280.67 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "642ed5de-5027-4a7d-b5d8-9bf3c41b4904")
-		)
-		(pin "2"
-			(uuid "13d39bc6-6993-4f9f-84b8-488a8109cf28")
-		)
-		(instances
-			(project "keyboard"
-				(path "/865a014f-22d3-4b82-bacd-05623a0d23ab"
-					(reference "SCREEN1")
 					(unit 1)
 				)
 			)
@@ -15103,92 +14980,6 @@
 			(project "keyboard"
 				(path "/865a014f-22d3-4b82-bacd-05623a0d23ab"
 					(reference "D81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 271.78 25.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88b03c02-bf84-496c-94c2-4bd769acfdf2")
-		(property "Reference" "D75"
-			(at 271.78 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 271.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 271.78 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 271.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 271.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 271.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3489c1af-633a-42a7-a371-e6b159397937")
-		)
-		(pin "1"
-			(uuid "cae376bc-e279-4416-bd3c-c855b55f0651")
-		)
-		(instances
-			(project "keyboard"
-				(path "/865a014f-22d3-4b82-bacd-05623a0d23ab"
-					(reference "D75")
 					(unit 1)
 				)
 			)
