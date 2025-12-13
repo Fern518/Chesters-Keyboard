@@ -1787,6 +1787,12 @@
 		(uuid "0622fc9d-1ff6-4d0c-8ed2-85ef22968d0a")
 	)
 	(junction
+		(at 250.19 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06686575-5df9-450a-b9c5-167de1665cbe")
+	)
+	(junction
 		(at 304.8 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1809,12 +1815,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0cd6055b-0f34-4f6b-b522-68daae9a2215")
-	)
-	(junction
-		(at 190.5 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0cf2603f-1e8a-4e56-b455-f0ccfccfcc1b")
 	)
 	(junction
 		(at 269.24 58.42)
@@ -1899,6 +1899,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d6157cd-b9da-420d-b221-3cb5ac82c512")
+	)
+	(junction
+		(at 285.75 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31de42ff-23dd-4480-97e9-1580c02f4214")
 	)
 	(junction
 		(at 97.79 22.86)
@@ -2195,10 +2201,10 @@
 		(uuid "78952ec9-b753-40fe-ae63-2444bc1955fb")
 	)
 	(junction
-		(at 250.19 49.53)
+		(at 269.24 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "78e9f2b5-c7f6-4b5d-a09a-f2e669465e3c")
+		(uuid "7f205814-9888-487c-b4c7-f1077894a517")
 	)
 	(junction
 		(at 212.09 31.75)
@@ -2259,12 +2265,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "917109e1-4e8f-40eb-ada0-ce8249dceaa4")
-	)
-	(junction
-		(at 266.7 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91d76a72-9e73-4b5e-9a55-09dcb111c9d6")
 	)
 	(junction
 		(at 57.15 43.18)
@@ -2369,6 +2369,12 @@
 		(uuid "a6b5080b-007b-4272-8919-386d3605d4a6")
 	)
 	(junction
+		(at 266.7 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7fed08f-36ff-4f68-8c38-da58c0da69eb")
+	)
+	(junction
 		(at 250.19 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2445,12 +2451,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c15fb393-234f-450f-ad92-58a78e74e4ee")
-	)
-	(junction
-		(at 173.99 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2154ca9-6600-43d1-be31-5ba74b4a4bdc")
 	)
 	(junction
 		(at 59.69 49.53)
@@ -3070,6 +3070,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 49.53) (xy 250.19 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b02cdd-4835-437e-a28a-d4910411a80c")
+	)
+	(wire
+		(pts
 			(xy 250.19 31.75) (xy 250.19 34.29)
 		)
 		(stroke
@@ -3440,6 +3450,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 52.07) (xy 266.7 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb83028-4a6c-49bf-888b-e30f721b41f5")
+	)
+	(wire
+		(pts
 			(xy 59.69 58.42) (xy 59.69 60.96)
 		)
 		(stroke
@@ -3457,16 +3477,6 @@
 			(type default)
 		)
 		(uuid "30b735e0-19e4-41c6-945a-976fe5367c26")
-	)
-	(wire
-		(pts
-			(xy 173.99 67.31) (xy 173.99 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30c154be-98b9-4068-aa2d-944215ef5784")
 	)
 	(wire
 		(pts
@@ -3507,16 +3517,6 @@
 			(type default)
 		)
 		(uuid "32cb30a9-c2ee-4196-8847-d0dcaf267dd7")
-	)
-	(wire
-		(pts
-			(xy 190.5 60.96) (xy 190.5 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33202e44-b21e-47e6-84bd-6e4fed824cd0")
 	)
 	(wire
 		(pts
@@ -3720,6 +3720,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 52.07) (xy 285.75 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433cd551-5909-4617-9681-4485e7dbbac5")
+	)
+	(wire
+		(pts
 			(xy 21.59 58.42) (xy 21.59 60.96)
 		)
 		(stroke
@@ -3737,16 +3747,6 @@
 			(type default)
 		)
 		(uuid "43ea02c6-765b-4f8a-9846-4d06dfbbbf57")
-	)
-	(wire
-		(pts
-			(xy 173.99 67.31) (xy 193.04 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "452bfb1a-9014-415b-b009-6021d9eecfc9")
 	)
 	(wire
 		(pts
@@ -4750,7 +4750,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 43.18) (xy 285.75 60.96)
+			(xy 285.75 43.18) (xy 285.75 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5090,7 +5090,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 69.85) (xy 180.34 69.85)
+			(xy 255.27 52.07) (xy 256.54 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5137,6 +5137,16 @@
 			(type default)
 		)
 		(uuid "9b641b1a-e107-4aa7-905a-e859d186af7b")
+	)
+	(wire
+		(pts
+			(xy 269.24 49.53) (xy 269.24 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b68194f-f94c-4886-8bc9-dd64ed311bec")
 	)
 	(wire
 		(pts
@@ -5770,7 +5780,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 67.31) (xy 173.99 67.31)
+			(xy 116.84 67.31) (xy 193.04 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6110,6 +6120,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 49.53) (xy 269.24 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd7dda45-d7f8-4030-a4d2-636c40bd9f17")
+	)
+	(wire
+		(pts
 			(xy 193.04 22.86) (xy 212.09 22.86)
 		)
 		(stroke
@@ -6157,26 +6177,6 @@
 			(type default)
 		)
 		(uuid "e001d654-059b-4369-a20d-c8ec00518efd")
-	)
-	(wire
-		(pts
-			(xy 266.7 52.07) (xy 266.7 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e02f93f2-2fa4-46c3-a44a-fccca0896a6f")
-	)
-	(wire
-		(pts
-			(xy 250.19 49.53) (xy 250.19 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0381b57-8a64-42e0-9a0f-8b630ae4cde7")
 	)
 	(wire
 		(pts
@@ -6270,7 +6270,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 52.07) (xy 256.54 52.07)
+			(xy 274.32 52.07) (xy 275.59 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6327,16 +6327,6 @@
 			(type default)
 		)
 		(uuid "e7f99d59-421b-467c-9bd9-08de2868f9d2")
-	)
-	(wire
-		(pts
-			(xy 250.19 49.53) (xy 288.29 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9b06b7c-a962-4a02-9853-2144b6e37ec5")
 	)
 	(wire
 		(pts
@@ -6397,6 +6387,16 @@
 			(type default)
 		)
 		(uuid "ec34c2e2-5f83-4353-a895-edfd0024c37c")
+	)
+	(wire
+		(pts
+			(xy 269.24 49.53) (xy 288.29 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec48e61d-956b-4632-9291-9abcfae67d82")
 	)
 	(wire
 		(pts
@@ -8564,7 +8564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b75f6b5-a6b2-4dec-b7f6-72805d2b1725")
-		(property "Reference" "LARROW1"
+		(property "Reference" "rCTRL1"
 			(at 261.62 62.23 0)
 			(effects
 				(font
@@ -8619,7 +8619,7 @@
 		(instances
 			(project "keyboard"
 				(path "/865a014f-22d3-4b82-bacd-05623a0d23ab"
-					(reference "LARROW1")
+					(reference "rCTRL1")
 					(unit 1)
 				)
 			)
@@ -8635,7 +8635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b8c2e1a-56c3-419e-b72b-d204ac6a02e3")
-		(property "Reference" "MACRO1"
+		(property "Reference" "rWIN1"
 			(at 223.52 62.23 0)
 			(effects
 				(font
@@ -8690,7 +8690,7 @@
 		(instances
 			(project "keyboard"
 				(path "/865a014f-22d3-4b82-bacd-05623a0d23ab"
-					(reference "MACRO1")
+					(reference "rWIN1")
 					(unit 1)
 				)
 			)
@@ -12255,7 +12255,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 252.73 52.07 180)
+		(at 271.78 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12264,7 +12264,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f0a24bd-6c64-4636-8b20-2d49255f8009")
 		(property "Reference" "D72"
-			(at 252.73 45.72 0)
+			(at 271.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12272,7 +12272,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 252.73 48.26 0)
+			(at 271.78 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12280,7 +12280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 52.07 90)
+			(at 271.78 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12289,7 +12289,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 52.07 90)
+			(at 271.78 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12298,7 +12298,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 252.73 52.07 0)
+			(at 271.78 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12307,7 +12307,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 252.73 52.07 0)
+			(at 271.78 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12316,7 +12316,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 252.73 52.07 0)
+			(at 271.78 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12420,7 +12420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "517beb88-16a1-475d-8d94-d22cd853b0e6")
-		(property "Reference" "DARROW1"
+		(property "Reference" "UARROW1"
 			(at 280.67 53.34 0)
 			(effects
 				(font
@@ -12475,7 +12475,7 @@
 		(instances
 			(project "keyboard"
 				(path "/865a014f-22d3-4b82-bacd-05623a0d23ab"
-					(reference "DARROW1")
+					(reference "UARROW1")
 					(unit 1)
 				)
 			)
@@ -12640,7 +12640,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 185.42 69.85 0)
+		(at 261.62 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12648,8 +12648,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "542a4023-514e-44b0-b15d-84e3b68f7544")
-		(property "Reference" "rALT1"
-			(at 185.42 62.23 0)
+		(property "Reference" "RARROW1"
+			(at 261.62 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12660,7 +12660,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 185.42 64.77 0)
+			(at 261.62 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12668,7 +12668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 64.77 0)
+			(at 261.62 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12677,7 +12677,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 64.77 0)
+			(at 261.62 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12686,7 +12686,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 185.42 69.85 0)
+			(at 261.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12703,7 +12703,7 @@
 		(instances
 			(project "keyboard"
 				(path "/865a014f-22d3-4b82-bacd-05623a0d23ab"
-					(reference "rALT1")
+					(reference "RARROW1")
 					(unit 1)
 				)
 			)
@@ -13418,7 +13418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b2477b1-a80e-4531-b7f8-14525b97843a")
-		(property "Reference" "RARROW1"
+		(property "Reference" "DARROW1"
 			(at 280.67 62.23 0)
 			(effects
 				(font
@@ -13473,7 +13473,7 @@
 		(instances
 			(project "keyboard"
 				(path "/865a014f-22d3-4b82-bacd-05623a0d23ab"
-					(reference "RARROW1")
+					(reference "DARROW1")
 					(unit 1)
 				)
 			)
@@ -14150,7 +14150,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 176.53 69.85 180)
+		(at 252.73 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14159,7 +14159,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cfa2933-a78b-4ad1-9cb7-bb1af9f03c3a")
 		(property "Reference" "D50"
-			(at 176.53 63.5 0)
+			(at 252.73 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14167,7 +14167,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 176.53 66.04 0)
+			(at 252.73 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14175,7 +14175,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 69.85 90)
+			(at 252.73 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14184,7 +14184,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 69.85 90)
+			(at 252.73 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14193,7 +14193,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 176.53 69.85 0)
+			(at 252.73 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14202,7 +14202,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 176.53 69.85 0)
+			(at 252.73 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14211,7 +14211,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 176.53 69.85 0)
+			(at 252.73 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15376,7 +15376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f83c2cf-682d-4151-9c3f-924f0f46a0ad")
-		(property "Reference" "rCTRL1"
+		(property "Reference" "MACRO1"
 			(at 242.57 62.23 0)
 			(effects
 				(font
@@ -15431,7 +15431,7 @@
 		(instances
 			(project "keyboard"
 				(path "/865a014f-22d3-4b82-bacd-05623a0d23ab"
-					(reference "rCTRL1")
+					(reference "MACRO1")
 					(unit 1)
 				)
 			)
@@ -15738,7 +15738,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 261.62 52.07 0)
+		(at 280.67 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15747,7 +15747,7 @@
 		(fields_autoplaced yes)
 		(uuid "97bf277f-6b5d-46db-add0-496778771d67")
 		(property "Reference" "ENTER1"
-			(at 261.62 44.45 0)
+			(at 280.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15758,7 +15758,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 261.62 46.99 0)
+			(at 280.67 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15766,7 +15766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 46.99 0)
+			(at 280.67 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15775,7 +15775,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 46.99 0)
+			(at 280.67 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15784,7 +15784,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 261.62 52.07 0)
+			(at 280.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18389,7 +18389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c51712dc-7bb8-4fef-b9d7-3acc09520f95")
-		(property "Reference" "rWIN1"
+		(property "Reference" "rALT1"
 			(at 204.47 62.23 0)
 			(effects
 				(font
@@ -18444,7 +18444,7 @@
 		(instances
 			(project "keyboard"
 				(path "/865a014f-22d3-4b82-bacd-05623a0d23ab"
-					(reference "rWIN1")
+					(reference "rALT1")
 					(unit 1)
 				)
 			)
@@ -20909,7 +20909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4f6e40f-8b4f-4f80-b397-cecd25919fa3")
-		(property "Reference" "UARROW1"
+		(property "Reference" "LARROW1"
 			(at 261.62 53.34 0)
 			(effects
 				(font
@@ -20964,7 +20964,7 @@
 		(instances
 			(project "keyboard"
 				(path "/865a014f-22d3-4b82-bacd-05623a0d23ab"
-					(reference "UARROW1")
+					(reference "LARROW1")
 					(unit 1)
 				)
 			)
