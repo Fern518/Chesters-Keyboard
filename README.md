@@ -3,8 +3,7 @@ A custom TKL keyboard built for the *Hack Club Blueprint program*.
 
 It functions as a miniature media dashboard: the display shows the current track (TO BE IMPLEMENTED), the knob controls volume, and the six keys can be bound to any shortcut.
 
-## The Hackpad
-![OverallPad](Images/pad_main.png)
+## The Keyboard
 Everything fits together using 4 M3 Bolts and Heatset inserts, one in each corner. 
 
 It has 2 separate printed pieces. The base, where the PCB sits, and the top cover, which protects the PCB.
