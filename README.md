@@ -8,9 +8,10 @@ Everything fits together using 4 M3 Bolts and Heatset inserts, one in each corne
 
 It has 2 separate printed pieces. The base, where the PCB sits, and the top cover, which protects the PCB.
 
-![caseTop](Images/kb_case.png)
-![caseSide](Images/kb_top.png)
-![caseSideBySide](Images/kb_bottom.png)
+![fullCase](Images/kb_case.png)
+![caseTop](Images/kb_top.png)
+![caseBottom](Images/kb_bottom.png)
+![caseWithPCB](Images/case_w_pcb.png)
 
 ## PCB
 My PCB was designed in KiCad. The rPi Pico is mounted on the bottom of the PCB between the home keys and arrow keys to make it as compact as possible.
