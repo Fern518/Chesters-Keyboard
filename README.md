@@ -8,6 +8,8 @@ Everything fits together using 4 M3 Bolts and Heatset inserts, one in each corne
 
 It has 2 separate printed pieces. The base, where the PCB sits, and the top cover, which protects the PCB.
 
+![fullBoard](Images/fullBoard.png)
+![fullSwitches](Images/fullSwitches.png)
 ![fullCase](Images/kb_case.png)
 ![caseTop](Images/kb_top.png)
 ![caseBottom](Images/kb_bottom.png)
